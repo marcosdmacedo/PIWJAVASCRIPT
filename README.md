@@ -1,11 +1,11 @@
 # PIWJAVASCRIPT
 
 ## :one: O QUE FOI CRIADO?
-Fiz um requisição REST (POST e GET) para a criação de um API, nessa primeira etapa ainda inicial, foi apenas feito o controllers usuario e sua rota, ou seja direcionamento para do usuario.
+Fiz um requisição REST (POST e GET) para a criação de um API, nessa segunda parte já foi adcionado mais coleções (Comentarios e Posts) dos usuarios, agora com interação com o mongo DB (Banco de Dados) via Json.
 
 ## :tow: COMO FEZ?
-Tive dificuldade na parte de obter posts, ou seja fazer um for para rodar entres os posts e obter por id
+Tive dificuldade na parte de promise, entender o conceito e aplicar na prática, demorei um pouco mais para fazer.
 
 ## :three: O QUE APRENDEU E O QUE TEVE DIFICULDADE?
- Aprendi basicamente tudo nessa parte inicial, desde de criar no powershell e rodar do terminal para o vs code até as implmenetações dos códigos na prática, a principal dificuldade inicial foi entender e aprender os npm installs e os códigos.
+ Aprendi basicamente tudo nessa segunda parte a utlizar Mongo DB os comandos e aplicações, até a interação com o código.
 
