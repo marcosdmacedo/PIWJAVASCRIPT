@@ -1,0 +1,35 @@
+.pagina{
+    display: block
+}
+.elementos_postar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.seu_post{
+    padding: 9px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputs{
+    padding: 25px 5px;
+}
+.texto{
+    padding: 3px 7px;
+}
+.enviar{
+    text-decoration: none;
+
+    color: rgb(34, 34, 34);
+    background-color: rgb(20, 202, 96);;
+
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px 6px;
+    border: 1px solid black;
+}
+.enviar:hover{
+    font-weight:normal;
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 168, 76);
+}

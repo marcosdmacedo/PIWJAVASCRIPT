@@ -1,0 +1,47 @@
+
+.navegador {
+    background-color: rgb(255, 233, 40);
+    width: 700px;
+    /* position: relative; */
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+.logotipo {
+    /* display: flex; */
+    padding: 0px 20px;
+    font-size: large;
+    font-family: Tahoma, sans-serif ;
+    text-decoration: none;
+}
+.navegador .barra-esquerda {
+    padding: 5px;
+    margin-bottom: 8px 5px;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+.botao {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(49, 162, 255);
+    margin: 0px 5px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.botao:hover {
+    color: white;
+    background-color: rgb(7, 79, 121);
+}
+.botao.active {
+    background-color: rgb(7, 79, 121);
+    color: white;
+}
+.usuario {
+    padding: 0px 10px 0px 3px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}

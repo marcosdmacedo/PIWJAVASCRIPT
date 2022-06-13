@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 42vw;
+    display: flex;
+    margin-left: 18px;
+}
+.footer .sobre{
+    padding: 0px 0px 10px 15px ;
+    font-style: italic;
+}
+.footer .contatos{
+    padding: 0px 10px 10px 10px;
+    font-style: italic;
+}

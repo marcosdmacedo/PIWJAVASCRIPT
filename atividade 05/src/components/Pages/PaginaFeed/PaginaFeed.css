@@ -1,0 +1,87 @@
+.pagina {
+    /* display: flex; */
+    margin-top: 0px;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    background-color: #ebe8e8;
+}
+.galeria-posts {
+    border: none;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    justify-content:center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.cards {
+    display: block;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(37, 118, 184);
+    padding: 7px 10px;
+    margin: 20px;
+}
+.inferior_card {
+    display: flex;
+    padding: 0px 5px;
+}
+.like {
+    text-decoration: none;
+
+    color: rgb(34, 34, 34);
+    background-color: rgb(20, 202, 96);;
+
+    
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px 7px;
+    border: 1px solid black;
+}
+.like:hover{
+    /* font-weight: bold; */
+    color: #ebe8e8;
+    background-color: rgb(62, 139, 255);
+}
+.nome_usuario {
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.p {
+    text-align: center;
+}
+.qnt_likes {
+    display: flex;
+    font-style: italic;
+    margin-right: 220px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 5px 5px;
+}
+
+/* /////// BUTTON COMENTAR /////// */
+
+.comentarios .enviar{
+    text-decoration: none;
+
+    color: rgb(34, 34, 34);
+    background-color: rgb(20, 202, 96);;
+
+    
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px 7px;
+    border: 1px solid black;
+}
+.comentarios .enviar:hover{
+    font-weight:normal;
+    color: rgb(255, 251, 251);
+    background-color: rgb(9, 168, 76);
+}
+.comentar{
+    width: 260px;
+}
+
+
+
