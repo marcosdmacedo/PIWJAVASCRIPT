@@ -1,0 +1,59 @@
+/* .pagina{
+    display: block
+} */
+.elementos_postar{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 241, 46);
+    height: 150px;
+    width: 300px;
+    box-shadow: 2px 10px 13px rgba(0, 3, 2, 0.123);
+
+    display: flex;
+    justify-content: center;
+}
+.seu_post{
+    display: flex;
+    padding: 9px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h3-0{
+    padding: 75px 20px 5px 100px;
+    font-size:larger;
+}
+.inputs{
+    justify-content: center;
+    display: block;
+    padding: 25px 5px;
+    display: flex;
+}
+.texto{
+    width: 290px;
+    height: 15px;
+    margin: 70px 50px 0px;
+}
+.inputs .enviar{
+    width: 45px;
+    margin: auto;
+    color: black;
+
+    display: block;
+    padding: 6px 0px; 
+    font-size: large;
+    font-family: Tahoma, sans-serif ;
+    text-decoration: none;
+}
+.enviar:hover{
+    font-size:105%;
+}
+.caixa-2{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    background-color: rgb(255, 241, 46);
+    height: 250px;
+    width: 300px;
+    box-shadow: 5px 7px 7px rgba(105, 72, 2, 0.336);
+}

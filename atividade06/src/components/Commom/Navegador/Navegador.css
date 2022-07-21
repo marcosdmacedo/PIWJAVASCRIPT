@@ -1,0 +1,59 @@
+.corpo-nav{
+    background-color: rgb(255, 250, 185);
+}
+.img{
+    width: 500px;
+    margin: auto;
+}
+.navegador {
+    background-color: rgb(255, 241, 46);
+    width: 700px;
+    /* position: relative; */
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 5px 8px rgba(95, 65, 1, 0.164);
+}
+.logotipo {
+    width: 75px;
+    margin: auto;
+    display: flex;
+}
+.barra-esquerda {
+    margin-bottom: 8px 5px;
+    justify-content: right;
+    display: flex;
+    margin: auto;
+    float: right;
+}
+.botao {
+    text-decoration: none;
+    border: none;
+    color: rgb(5, 5, 5);
+    /* background-color: rgb(253, 154, 40); */
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-decoration:solid;
+    cursor: pointer;
+}
+.hr{
+    color: black;
+    background-color:black ;
+    height: 15px;
+}
+.botao:hover {
+    color: rgb(182, 83, 3);
+}
+.botao.active {
+    color: rgb(182, 83, 3);
+}
+.usuario-1 {
+    color: black;
+    padding: 4px 10px 5px 10px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}

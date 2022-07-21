@@ -1,0 +1,82 @@
+.cadastro{
+    background-color: #fde4003b;
+    width: 700px;
+    height: 700px;
+
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+.nav-superior{
+    background-color: rgb(255, 241, 46);
+    display: flex;
+    padding: 0px 20px;
+    box-shadow: 0px 7px 5px rgba(0, 3, 2, 0.171);
+}
+.img{
+    width: 115px;
+    display: flex;
+}
+.conta-login{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+
+    display: block;
+    padding: 0px 10px;
+}
+.conta-login:hover{
+    font-size:95%;
+}
+/* ///////////////////////////////////////////////// */
+
+.caixa{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    background-color: rgb(255, 241, 46);
+    height: 380px;
+    width: 300px;
+    box-shadow: 5px 7px 7px rgba(105, 72, 2, 0.336);
+}
+
+/* /////////////////////////////////////////////////// */
+.h3-2{
+    padding: 75px 20px 5px 110px;
+    font-size:larger;
+
+}
+.inputs{
+    display: block;
+    padding: 0px 50px;
+    margin: 5px;
+}
+
+.enviar-1{
+    width: 95px;
+    margin: auto;
+
+    margin: 18px 45px;
+    background-color: rgb(1, 95, 1);
+    justify-content: center;
+    border: none;
+    color: white;
+
+    display: flex;
+    padding: 2px 2px; 
+    font-size: large;
+    font-family: Tahoma, sans-serif ;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 100ms;
+}
+.enviar-1:hover{
+    /* font-size:105%; */
+    background-color: rgb(30, 143, 2);
+    box-shadow: 2px 2px 8px 2px rgb(30, 143, 2, 0.4);
+    
+}
+.nav-inferior{
+    display: flex;
+    padding: 12px 40px;
+}

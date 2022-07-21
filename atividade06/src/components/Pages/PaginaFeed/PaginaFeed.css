@@ -1,0 +1,97 @@
+.pagina {
+    /* display: flex; */
+    margin-top: 0px;
+    width: 700px;
+    height: 200vh;
+    margin: auto;
+    background-color: #fde4003b;
+}
+/* //////////////////////////////////////////// */
+
+.galeria-posts {
+
+    display: flex;
+    border: none;
+    width: 400px;
+    height: 100vh;
+    padding: 10px;
+    justify-content:center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.cards {
+    display: block;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(192, 88, 3);
+    
+    padding: 7px 10px;
+    margin: 20px;
+    box-shadow: 5px 7px 7px rgba(105, 72, 2, 0.336);
+}
+.inferior_card {
+    display: flex;
+    padding: 0px 5px;
+}
+/* //////////////////////////////////////////// */
+
+.like {
+    text-decoration: none;
+
+    color:black;
+    background-color: rgb(253, 154, 40);
+    
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px 7px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 7px rgba(65, 44, 0, 0.486);
+}
+.like:hover{
+    padding: 2px 6px;
+}
+/* //////////////////////////////////////////// */
+
+.nome_usuario {
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* //////////////////////////////////////////// */
+
+.p {
+    text-align: center;
+    text-shadow: 0px 8px 12px rgba(5, 4, 0, 0.459);
+}
+/* //////////////////////////////////////////// */
+
+.qnt_likes {
+    display: flex;
+    font-style: italic;
+    margin-right: 220px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 0px 5px;
+}
+/* //////////////////////////////////////////// */
+
+.enviar-3{
+    text-decoration: none;
+    background-color: rgb(253, 154, 40);
+
+    
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px 7px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 8px rgba(66, 43, 0, 0.486);
+}
+.enviar-3:hover{
+    padding: 3px 5px;
+}
+/* ///////////////////////////////// */
+.comentar{
+    width: 260px;
+}
+
+
+

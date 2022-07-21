@@ -1,0 +1,21 @@
+.h3-3{
+    padding: 75px 20px 5px 130px;
+    font-size:larger;
+}
+.enviar{
+    width: 58px;
+    margin: auto;
+    color: black;
+    background-color:  rgb(255, 241, 46);
+
+    border: none;
+    display: flex;
+    padding: 3px 2px; 
+    font-size: large;
+    font-family: Tahoma, sans-serif ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.enviar:hover{
+    font-size:105%;
+}
